@@ -1,0 +1,80 @@
+@startuml
+annotation java.lang.Override
+annotation java.lang.SuppressWarnings
+class AppPackage.AnimationClass
+class java.awt.Color
+class java.awt.Graphics
+class java.awt.Graphics2D
+class java.awt.Image
+class java.awt.print.PageFormat
+class java.awt.print.Printable
+class java.awt.print.PrinterException
+class java.awt.print.PrinterJob
+class java.io.BufferedReader
+class java.io.File
+class java.io.FileReader
+class java.io.FileWriter
+class java.text.SimpleDateFormat
+class java.util.Scanner
+class javax.swing.ImageIcon
+class javax.swing.JFrame
+class javax.swing.JOptionPane
+class javax.swing.table.DefaultTableModel
+class javax.swing.table.TableModel
+class movieticketingbookingsystem.Main
+class movieticketingbookingsystem.MovieSelection
+class movieticketingbookingsystem.Print
+class movieticketingbookingsystem.SeatReservation
+class movieticketingbookingsystem.Splash
+class movieticketingbookingsystem.getAllData
+class movieticketingbookingsystem.informationData
+class movieticketingbookingsystem.loading
+class movieticketingbookingsystem.loginform
+movieticketingbookingsystem.Main ..> java.lang.Override
+movieticketingbookingsystem.Main ..> AppPackage.AnimationClass
+movieticketingbookingsystem.Main ..> javax.swing.ImageIcon
+movieticketingbookingsystem.Main --|> javax.swing.JFrame
+movieticketingbookingsystem.MovieSelection ..> java.lang.SuppressWarnings
+movieticketingbookingsystem.MovieSelection ..> java.awt.Color
+movieticketingbookingsystem.MovieSelection ..> java.awt.Image
+movieticketingbookingsystem.MovieSelection ..> java.io.File
+movieticketingbookingsystem.MovieSelection ..> java.io.FileWriter
+movieticketingbookingsystem.MovieSelection ..> java.text.SimpleDateFormat
+movieticketingbookingsystem.MovieSelection ..> javax.swing.ImageIcon
+movieticketingbookingsystem.MovieSelection --|> javax.swing.JFrame
+movieticketingbookingsystem.MovieSelection ..> javax.swing.JOptionPane
+movieticketingbookingsystem.Print ..> java.lang.SuppressWarnings
+movieticketingbookingsystem.Print ..> java.awt.Graphics
+movieticketingbookingsystem.Print ..> java.awt.Graphics2D
+movieticketingbookingsystem.Print ..> java.awt.print.PageFormat
+movieticketingbookingsystem.Print ..> java.awt.print.Printable
+movieticketingbookingsystem.Print ..> java.awt.print.PrinterException
+movieticketingbookingsystem.Print ..> java.awt.print.PrinterJob
+movieticketingbookingsystem.Print ..> java.io.BufferedReader
+movieticketingbookingsystem.Print ..> java.io.File
+movieticketingbookingsystem.Print ..> java.io.FileReader
+movieticketingbookingsystem.Print --|> javax.swing.JFrame
+movieticketingbookingsystem.Print ..> javax.swing.JOptionPane
+movieticketingbookingsystem.Print ..> javax.swing.table.DefaultTableModel
+movieticketingbookingsystem.SeatReservation ..> java.lang.SuppressWarnings
+movieticketingbookingsystem.SeatReservation ..> java.awt.Color
+movieticketingbookingsystem.SeatReservation ..> java.io.FileWriter
+movieticketingbookingsystem.SeatReservation --|> javax.swing.JFrame
+movieticketingbookingsystem.SeatReservation ..> javax.swing.JOptionPane
+movieticketingbookingsystem.Splash ..> java.lang.SuppressWarnings
+movieticketingbookingsystem.Splash --|> javax.swing.JFrame
+movieticketingbookingsystem.informationData ..> java.lang.SuppressWarnings
+movieticketingbookingsystem.informationData ..> java.awt.Image
+movieticketingbookingsystem.informationData ..> javax.swing.ImageIcon
+movieticketingbookingsystem.informationData --|> javax.swing.JFrame
+movieticketingbookingsystem.informationData ..> javax.swing.JOptionPane
+movieticketingbookingsystem.informationData ..> javax.swing.table.DefaultTableModel
+movieticketingbookingsystem.informationData ..> javax.swing.table.TableModel
+movieticketingbookingsystem.loading ..> javax.swing.JFrame
+movieticketingbookingsystem.loginform ..> java.lang.SuppressWarnings
+movieticketingbookingsystem.loginform ..> java.awt.Color
+movieticketingbookingsystem.loginform ..> java.util.Scanner
+movieticketingbookingsystem.loginform --|> javax.swing.JFrame
+movieticketingbookingsystem.loginform ..> javax.swing.JOptionPane
+movieticketingbookingsystem.loginform ..> javax.swing.table.DefaultTableModel
+@enduml

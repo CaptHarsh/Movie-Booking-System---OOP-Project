@@ -1,0 +1,2 @@
+ID , FirstName , LastName , Nickname , Address , Age 
+1   /  Mihir   /  Patel   /  Mihir   /  Santacruz   /  20

@@ -1,0 +1,2 @@
+ID , FirstName , LastName , Nickname , Address , Age 
+1   /  arnold   /  ganuhay   /  arne   /  brgy sto nino tugbok district davao city   /  23
